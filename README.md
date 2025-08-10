@@ -1,0 +1,2 @@
+# SYARAT MAGANG
+Syarat magang SMKN 2 SBY
