@@ -1,0 +1,69 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #007BFF, #00C6FF);
+  color: white;
+  min-height: 100vh;
+}
+
+header {
+  background: rgba(0, 0, 50, 0.6);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+button {
+  background: #0056b3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background: #003d80;
+}
+
+.login-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background: white;
+  color: black;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  animation: fadeIn 1s ease;
+}
+
+input {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.event-section, .event-list, .anggota-section {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  margin: 15px;
+  border-radius: 8px;
+  animation: fadeIn 0.8s ease;
+}
